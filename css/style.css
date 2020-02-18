@@ -221,6 +221,10 @@ button{
 	font-family: 'Quicksand', sans-serif;
 }
 
+.fc-day-header{
+    color: #666;
+    font-weight: normal;
+}
 .fc-day-header.fc-sun{
 
 	color: #E54C4C;
@@ -229,6 +233,7 @@ button{
 .fc-day-header.fc-sat{
 
 	color: #548AF1;
+
 }
 .fc-row .fc-widget-header{
 
@@ -236,4 +241,41 @@ button{
 	padding: 5px 0 5px 0;
 }
 
+
+.fc-day-top{
+
+    color: #666;
+
+}
+.fc-ltr .fc-dayGrid-view .fc-day-top .fc-day-number{
+    float: left;
+    padding: 0px;
+    padding-top:2px; 
+    padding-left: 4px;
+    padding-bottom: 1px;
+}
+
+.fc-event{
+    border: 1px solid white;
+    background-color: #705341;
+    padding: 1px;
+    padding-left: 1px;
+    text-align: center;
+
+}
+
+.fc-center{
+    color: #000;
+}
+.fc-button-primary{
+
+    background-color: transparent;
+    color:#666;
+
+}
+
+.fc-button-primary , h2{
+
+    font-weight: normal;
+}
 
