@@ -234,6 +234,7 @@ body {
 button{
 
 	font-family: 'Quicksand', sans-serif;
+    outline: none;
 }
 
 .fc-day-header{
@@ -344,8 +345,7 @@ button{
 
     color: #fff;
     background-color: #4b4b4b;
-    border-color: #4b4b4b;
-
+   
 
 }
 
@@ -354,5 +354,106 @@ button{
     outline: none;
 }
 
+.fc-today-button ,.fc-button {
 
-/*.fc-unthemed th, .fc-unthemed td
+    font-size: 12px;
+}
+
+.fc-button-primary{
+
+    background-color: transparent;
+    color: #666;
+    outline: none;
+}
+
+/*좋아ㅛ어 가운데 정렬시작*/
+
+.fc-center{
+
+    display: inline-block;
+    text-align: center;
+    width: 160px;
+   
+    position: relative;
+    left:100px;
+    
+}
+
+.fc-prev-button{
+
+    float: left;
+   
+    vertical-align: middle;
+
+}
+
+
+.fc-prev-button ,h2{
+
+    float: center;
+    
+    vertical-align: middle;
+
+    position: relative;
+    right:25px;
+}
+
+.fc-next-button{
+
+    float: right;
+  
+    vertical-align: middle;
+    position: relative;
+    bottom:27px;
+}
+
+
+
+.fc-today-button{
+    float: center;
+
+    vertical-align: middle;
+    position: relative;
+    left:4px;
+    top:5px;
+    }
+
+   
+/*이게평소 today*/
+.fc-today-button.fc-button-primary:disabled {
+   background-color: transparent;
+    color: #666;
+}
+
+/*둘이 바꾸기>>*/
+.fc-today-button.fc-button-primary {
+  
+
+       color: #fff;
+    background-color: #ddd;
+    border-color: #ddd;
+}
+
+.fc-today-button.fc-button-primary:hover {
+  
+
+       color: #fff;
+    background-color: #4c4c4c;
+    border-color: #4c4c4c;
+}
+
+.fc-right{
+     position: relative;
+    top:20px;
+
+}
+/*다른곳갈때*/
+   
+/*.fc-unthemed th, .fc-unthemed td, .fc-unthemed thead, .fc-unthemed tbody, .fc-unthemed .fc-divider, .fc-unthemed .fc-row, .fc-unthemed .fc-content, .fc-unthemed .fc-popover, .fc-unthemed .fc-list-view, .fc-unthemed .fc-list-heading td{
+
+    border-color:#d5d5d5;
+}
+
+
+border-left: transparent;
+    border-right: transparent;
