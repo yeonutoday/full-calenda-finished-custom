@@ -1,4 +1,4 @@
-body {
+{
 					margin: 40px 10px;
 					padding: 0;
 					font-family: 'Quicksand', sans-serif;
@@ -274,9 +274,10 @@ button{
 .fc-event{
     border: 0px solid white;
     background-color: #4C4C4C;
-    padding: 1px;
+    padding: 3px;
     padding-left: 1px;
     text-align: center;
+    margin-bottom: 3px;
 
 }
 
@@ -322,6 +323,41 @@ button{
     outline: none;
 
 }
+
+.fc-button-primary:disabled{
+
+    color: #fff;
+    background-color: #ddd;
+    border-color: #ddd;
+}
+
+.fc-button-primary{
+
+    border-color:#666;
+    border-radius: 30px;
+    border:none;
+    text-orientation: none;
+}
+
+
+.fc-button-primary:not(:disabled):active, .fc-button-primary:not(:disabled).fc-button-active{
+
+    color: #fff;
+    background-color: #4b4b4b;
+    border-color: #4b4b4b;
+
+
+}
+
+.fc-prev-button .fc-button .fc-button-primary{
+
+    outline: none;
+}
+
+.fc-button-primary, h2{
+    padding:8px; 
+}
+
 /*.fc-unthemed th, .fc-unthemed td, .fc-unthemed thead, .fc-unthemed tbody, .fc-unthemed .fc-divider, .fc-unthemed .fc-row, .fc-unthemed .fc-content, .fc-unthemed .fc-popover, .fc-unthemed .fc-list-view, .fc-unthemed .fc-list-heading td{
 
     border-color:#d5d5d5;
@@ -330,3 +366,4 @@ button{
 
 border-left: transparent;
     border-right: transparent;
+
