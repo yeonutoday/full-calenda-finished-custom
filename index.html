@@ -1,21 +1,28 @@
 <!--full calendar 4.31 하이고-->
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='ko'>
   <head>
     <meta charset='utf-8' />
 
     <link href='packages/core/main.css' rel='stylesheet' />
+
     <link href='packages/daygrid/main.css' rel='stylesheet' />
 
-    <!--스타일 추가-->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <!--스타일 추가-->
+   
 
     <script src='packages/core/main.js'></script>
+    <script src='packages/core/main.min.js'></script>
+
     <script src='packages/daygrid/main.js'></script>
+    <script src='packages/daygrid/main.min.js'></script>
+
+    <script src='packages/timeGrid/main.js'></script>
+    <script src='packages/timeGrid/main.min.js'></script>
 
 	<script src='packages/google-calendar/main.js'></script>
-
+	<link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
 
     <script>
@@ -25,33 +32,75 @@
 
         var calendar = new FullCalendar.Calendar(calendarEl, {
 
+        	 titleFormat: { // will produce something like "Tuesday, September 18, 2018"
+    month: 'numeric',
+    year: 'numeric',
+  },
+
+
+ 		 plugins: [ 'dayGrid' , 'googleCalendar', 'timeGrid', 'list' ,'dayGridPlugin', 'momentPlugin'],
+
+
+ 		 customButtons: {
+		    myCustomButton: {
+		      text: '커스텀버튼',
+		      click: function() {
+		        alert('(주소나 연락처 전화번호 알람)혹시 필요없으면 없애드립니다');
+		      }
+		    }
+ 	 },
+
+
         	 header: {
 						        left: 'prev,today,next',
 						        center: 'title',
-						        right: 'dayGridMonth,dayGridWeek,dayGridDay'
+						        right: 'dayGridMonth,dayGridWeek,dayGridDay myCustomButton'
 
 
-
+						      
 						    },
-          plugins: [ 'dayGrid' , 'googleCalendar', 'timeGrid'],
+
+		
+     
+	
+	
 
            googleCalendarApiKey: 'AIzaSyCD5E2Fwd8rgcbMJs3zKnzvkqSYu9mECdw',
  			 events: {
    			 googleCalendarId: 'seohyang95@gmail.com'
-			  }
+
+
+			  },
+
+buttonText: {
+                next: '▶',
+                nextYear: '>>',
+                prev: '◀',
+                prevYear: '<<',
+                today:'GO TODAY',
+                month:    'MONTH',
+                week:     'WEEK',
+  				day:      'DAY',
+
+
+                
+            }
 
 
         });
+
 
         calendar.render();
       });
 
     </script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
   </head>
+  
   <body>
-
     <div id='calendar'></div>
-
   </body>
 </html>
 
