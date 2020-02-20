@@ -248,7 +248,7 @@ button{
 
 .fc-day-header.fc-sat{
 
-	color: #548AF1;
+	
 
 }
 .fc-row .fc-widget-header{
@@ -343,10 +343,10 @@ button{
 
 .fc-button-primary:not(:disabled):active, .fc-button-primary:not(:disabled).fc-button-active{
 
-    color: #fff;
-    background-color: #4b4b4b;
+    color: #666;
+    background-color:transparent;
    
-
+/*이거 폰트색깔뭐더라*/
 }
 
 .fc-prev-button .fc-button .fc-button-primary{
@@ -430,16 +430,16 @@ button{
      
 
        color: #fff;
-    background-color: #ddd;
-    border-color: #ddd;
+    background-color: #ccc;
+    border-color: #ccc;
 }
 
 .fc-today-button.fc-button-primary:hover {
   
 
        color: #fff;
-    background-color: #4c4c4c;
-    border-color: #4c4c4c;
+    background-color: #ccc;
+    border-color: #ccc;
 }
 
 .fc-right{
@@ -449,3 +449,7 @@ button{
 
 }
 
+.fc-button-primary:not(:disabled):active:focus, .fc-button-primary:not(:disabled).fc-button-active:focus{
+
+    box-shadow:0 0 0 0;
+}
