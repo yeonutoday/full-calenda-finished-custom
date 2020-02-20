@@ -380,7 +380,7 @@ button{
 }
 
 .fc-prev-button{
-
+   
     float: left;
    
     vertical-align: middle;
@@ -427,7 +427,7 @@ button{
 
 /*둘이 바꾸기>>*/
 .fc-today-button.fc-button-primary {
-  
+     
 
        color: #fff;
     background-color: #ddd;
@@ -443,17 +443,9 @@ button{
 }
 
 .fc-right{
+
      position: relative;
     top:20px;
 
 }
-/*다른곳갈때*/
-   
-/*.fc-unthemed th, .fc-unthemed td, .fc-unthemed thead, .fc-unthemed tbody, .fc-unthemed .fc-divider, .fc-unthemed .fc-row, .fc-unthemed .fc-content, .fc-unthemed .fc-popover, .fc-unthemed .fc-list-view, .fc-unthemed .fc-list-heading td{
 
-    border-color:#d5d5d5;
-}
-
-
-border-left: transparent;
-    border-right: transparent;
