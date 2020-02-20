@@ -34,24 +34,17 @@
 
 
         	 titleFormat: { // will produce something like "Tuesday, September 18, 2018"
-        	 	
+        	 	year: 'numeric',
 			    month: 'numeric',
-			    year: 'numeric',
+			    
 
 			  },
-
+			  
 			
  		 plugins: [ 'dayGrid' , 'googleCalendar', 'timeGrid', 'list' ,'dayGridPlugin', 'momentPlugin'],
 
 
- 		 customButtons: {
-		    myCustomButton: {
-		      text: '커스텀버튼',
-		      click: function() {
-		        alert('(주소나 연락처 전화번호 알람)혹시 필요없으면 없애드립니다');
-		      }
-		    }
- 	 },
+ 		
 
 
         	 header: {
@@ -96,7 +89,9 @@ buttonText: {
     </script>
 
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
+      <style>
+    *:focus { outline:none; }
+  </style>
   </head>
   
   <body>
