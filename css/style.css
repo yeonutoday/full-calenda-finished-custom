@@ -10,7 +10,7 @@ body {
 					display: none;
 					position: absolute;
 					top: 10px;
-					right: 10px;
+					
 				}
 
 				#calendar {
@@ -282,6 +282,7 @@ button{
     color: #4C4C4C;
     text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
 
+
 }
 
 .fc-center{
@@ -449,7 +450,11 @@ button{
     box-shadow:0 0 0 0;
 }
 
+.fc .fc-ltr .fc-unthemed{
 
+    margin-left: 0;
+    margin-right: 0;
+}
 
 /*다른곳갈때*/
    
@@ -464,4 +469,4 @@ border-left: transparent;
 fc-dayGridMonth-button fc-button fc-button-primary fc-button-active
 
 
-<div class="iFrame"><iframe src="https://yeonutoday.github.io/full-calenda-finished-custom/" style="border: 0" width="930" height="1400" scrolling="no">&#34;&gt;</iframe></div> scrolling="no">&#34;&gt;</iframe></div>
+<div class="iFrame"><iframe src="https://yeonutoday.github.io/full-calenda-finished-custom/" style="border: 0" width="930" height="1400" scrolling="no">&#34;&gt;</iframe></div>
