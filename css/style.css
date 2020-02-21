@@ -275,7 +275,7 @@ button{
 .fc-event{
     border: 0px solid white;
     background-color: transparent;
-    padding: 3px;
+    padding: 1px;
     padding-left: 1px;
     text-align: left;
     margin-bottom: 0px;
@@ -464,4 +464,4 @@ border-left: transparent;
 fc-dayGridMonth-button fc-button fc-button-primary fc-button-active
 
 
-<div class="iFrame"><iframe src="https://yeonutoday.github.io/full-calenda-finished-custom/" style="border: 0" width="930" height="1400" scrolling="no">&#34;&gt;</iframe></div>
+<div class="iFrame"><iframe src="https://yeonutoday.github.io/full-calenda-finished-custom/" style="border: 0" width="930" height="1400" scrolling="no">&#34;&gt;</iframe></div> scrolling="no">&#34;&gt;</iframe></div>
