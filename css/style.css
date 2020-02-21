@@ -14,7 +14,8 @@ body {
 				}
 
 				#calendar {
-					max-width: 850px;
+					max-width: 900px;
+                    max-height: 1200px;
 					margin: 0 auto;
 				}
 
@@ -456,17 +457,13 @@ button{
     margin-right: 0;
 }
 
-/*다른곳갈때*/
+.fc-content{
    
-/*.fc-unthemed th, .fc-unthemed td, .fc-unthemed thead, .fc-unthemed tbody, .fc-unthemed .fc-divider, .fc-unthemed .fc-row, .fc-unthemed .fc-content, .fc-unthemed .fc-popover, .fc-unthemed .fc-list-view, .fc-unthemed .fc-list-heading td{
 
-    border-color:#d5d5d5;
 }
 
+.fc-day-grid-event .fc-content{
+ white-space:normal;
+}
 
-border-left: transparent;
-    border-right: transparent;
-fc-dayGridMonth-button fc-button fc-button-primary fc-button-active
-
-
-<div class="iFrame"><iframe src="https://yeonutoday.github.io/full-calenda-finished-custom/" style="border: 0" width="930" height="1400" scrolling="no">&#34;&gt;</iframe></div>scrolling="no">&#34;&gt;</iframe></div>
+/*다른곳갈때*/ scrolling="no">&#34;&gt;</iframe></div>scrolling="no">&#34;&gt;</iframe></div>
