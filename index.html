@@ -77,7 +77,8 @@ buttonText: {
 
 
                 
-            }
+            },
+        eventClick: function(event) { if(event.title) { window.open(getUrl(event.title),'_blank'); } }, 
 
 
         });
